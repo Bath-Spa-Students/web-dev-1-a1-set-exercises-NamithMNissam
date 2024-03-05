@@ -1,0 +1,135 @@
+body{
+    background-image: url("Tiramisu\ pudding.jpg");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+h1{
+    color:black;
+}
+p{
+    color:bisque;
+}
+h2{
+    color:black;
+}
+ul{
+    color:bisque;
+}
+h3{
+    color:black;
+}
+ol{
+    color:bisque;
+}
+h4{
+    color:black;
+}
+ol{
+    color:bisque;
+}
+h5{
+    color:bisque;
+}
+p{
+    color:bisque;
+}
+li{
+    color:bisque;
+}
+h6{
+    color:bisque;
+}
+
+  /* CSS Animations */
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 2;}
+  }
+
+  h1, p, .ingredients, .instructions, .nutrition, .sidebar-img{
+   animation: fadeIn 5s;
+  }
+
+  @keyframes rotate {
+   100% {transform: rotate(0deg);}
+  }
+
+  img {
+    animation: rotate 5s linear infinite;
+  }
+
+  @keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+  @keyframes bounce {
+    20% {transform: translateY(-10px);}
+    40% {transform: translateY(10px);}
+    60% {transform: translateY(-5px);}
+    80% {transform: translateY(0px);}
+  }
+
+  @keyframes growIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+h1,p, .ingredients, .instructions, .nutrition{
+  animation: growIn 2s cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+}
+
+  .ingredients li:hover {
+    animation: bounce 0.5s linear;
+  }
+  
+  .instructions li:hover {
+    animation: bounce 0.5s linear;
+  }
+
+  .nutrition li:hover {
+    animation: bounce 0.5s linear;
+  }
+
+  .sidebar-img {
+    float: left; 
+    margin-right: 5px;
+  }
+
+  .sidebar-img {
+    float: right; 
+    margin-left: 5px;
+  }
+
+  h1{
+    font-size: 42px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  h5{
+    font-size: 25px;
+  }
+  p{
+    font-size: 22px;
+  }
+  li{
+    font-size: 22px;
+  }
+  h6{
+    font-size: 25px;
+  }
